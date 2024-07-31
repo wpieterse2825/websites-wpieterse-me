@@ -1,0 +1,7 @@
+name: websites-wpieterse-me
+runtime: dotnet
+description: My personal resume and blog
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""

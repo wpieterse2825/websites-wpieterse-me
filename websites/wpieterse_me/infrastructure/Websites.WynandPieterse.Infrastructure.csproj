@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pulumi" Version="3.*" />
+    <PackageReference Include="Pulumi.Gcp" Version="7.*" />
+    <PackageReference Include="Pulumi.Gitlab" Version="6.9.0" />
+    <PackageReference Include="Pulumi.Github" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

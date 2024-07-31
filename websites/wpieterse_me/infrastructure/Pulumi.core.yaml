@@ -1,0 +1,9 @@
+environment:
+  - core
+
+config:
+  pulumi_orginization_name: wpieterse
+  pulumi_common_project_name: common
+  pulumi_common_stack_name: core
+  pulumi_websites_project_name: websites
+  pulumi_websites_stack_name: core

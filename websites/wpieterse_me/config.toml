@@ -1,0 +1,94 @@
+baseurl = "https://wpieterse.me"
+title = "Wynand Pieterse"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Wynand Pieterse"
+
+# gravatar = "wpieterse2825@gmail.com"
+avatarurl = "images/avatar.webp"
+faviconSVG = "/img/favicon.svg"
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
+
+info = "Christ-follower, computer-wiz, engineering-fanatic"
+description = "Wynand Pieterse's personal website"
+since = 2024
+
+keywords = "blog,developer,engineering,personal"
+
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
+
+enableTwemoji = true
+
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+# Social links
+[[params.social]]
+name = "WhatsApp"
+icon = "fa-brands fa-whatsapp fa-2x"
+weight = 1
+url = "https://wa.me/27641031189"
+
+[[params.social]]
+name = "Mail"
+icon = "fa-regular fa-envelope fa-2x"
+weight = 2
+url = "mailto:wpieterse2825@gmail.com"
+
+[[params.social]]
+name = "Phone"
+icon = "fa-solid fa-phone fa-2x"
+weight = 3
+url = "tel:+27641031189"
+
+[[params.social]]
+name = "GitLab"
+icon = "fa-brands fa-gitlab fa-2x"
+weight = 4
+url = "https://gitlab.com/wpieterse/"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 5
+url = "https://github.com/wpieterse/"
+
+# Menu links
+[[menu.main]]
+name = "About"
+weight = 1
+url  = "about/"
+
+[[menu.main]]
+name = "Resume"
+weight = 2
+url = "resume/"
+
+[[menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[menu.main]]
+name = "Contact"
+weight = 4
+url = "contact/"
